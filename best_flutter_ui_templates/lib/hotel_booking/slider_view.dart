@@ -99,7 +99,9 @@ class CustomThumbShape extends SliderComponentShape {
     TextPainter labelPainter,
     RenderBox parentBox,
     SliderThemeData sliderTheme,
+    Size sizeWithOverflow,
     TextDirection textDirection,
+    double textScaleFactor,
     double value,
   }) {
     final Canvas canvas = context.canvas;
